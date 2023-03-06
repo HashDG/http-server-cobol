@@ -17,4 +17,4 @@ In order to ensure the proper running of the server, just visit the link `http:/
 
 ## Note
 
-For now only the display of HTTP requests is available. The server won't answer anything.
+For now the server handle request but fails to generate the response.

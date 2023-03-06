@@ -1,7 +1,7 @@
 CC=cobc
 
-http-server: http-server.cbl http-request-parser.cbl errnomessage.so
-	$(CC) -free -x -o http-server http-server.cbl http-request-parser.cbl
+http-server: http-server.cbl http-request-parser.cbl http-response-generator.cbl errnomessage.so 
+	$(CC) -free -x -o http-server http-server.cbl http-request-parser.cbl http-response-generator.cbl
 
 errnomessage.so: errnomessage.cbl get_errno.so
 	$(CC) -W errnomessage.cbl
