@@ -18,3 +18,4 @@ In order to ensure the proper running of the server, just visit the link `http:/
 ## Note
 
 The server answer Hello World (yahoo).
+This version is testing (unsuccessfully) HTML files scraping. If you want to execute it well, just remove the call to HTTP-RESOURCES-SCRAPER.
